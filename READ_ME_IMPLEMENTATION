@@ -1,8 +1,8 @@
-- The MTF Implementation code is present in "OpenCLExercise3_Sobel/src". 
+- The MTF Implementation code is present in "src". 
 
 - Run "OpenCLExercise3_Sobel.cpp". Additional libraries required would be opencv_core, opencv_imgproc, opencv_highgui, opencv_ml availabe at "/usr/lib/x86_64-linux-gnu".
 
-- Excel files would haven been generated in the project folder after successful execution.
+- Then Excel files would have been generated in the project folder after successful execution.
 
 - use "plot.py" python script to plot the ESF, PSF, MTF curve respectively.
 
