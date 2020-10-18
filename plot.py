@@ -10,7 +10,7 @@ b = []
 m = []
 n = []
 
-with open('/home/vayalala/workspace2/OpenCLExercise3_Sobel/ValuesESF.csv','r') as csvfile:
+with open('ValuesESF.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
         x.append(float(row[0]))
@@ -20,7 +20,7 @@ plt.plot(x, y, label='ESF')
 plt.legend()
 plt.show()
 
-with open('/home/vayalala/workspace2/OpenCLExercise3_Sobel/ValuesPSF.csv','r') as csvfile:
+with open('ValuesPSF.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
         a.append(float(row[0]))
@@ -30,7 +30,7 @@ plt.plot(a, b, label='PSF')
 plt.legend()
 plt.show()
 
-with open('/home/vayalala/workspace2/OpenCLExercise3_Sobel/ValuesMTF.csv','r') as csvfile:
+with open('ValuesMTF.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
         m.append(float(row[0]))
